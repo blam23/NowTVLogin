@@ -3,7 +3,7 @@ Automatic login for NowTV
 
 ## Setup
  - Clone Repo
- - Create .env file in AutoLogin folder, containing JSON with 'user' and 'pass' fields:
+ - Create .env file in same folder as `manifest.json`, containing JSON with 'user' and 'pass' fields:
  
 ```json
 {
