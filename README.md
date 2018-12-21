@@ -1,5 +1,5 @@
 # AutoLogin
-Automatic login for NowTV
+Automatic login for NowTV, because it keeps asking for it over and over and no password manager seems to want to work with this site..
 
 ## Setup
  - Clone Repo
