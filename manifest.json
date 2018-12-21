@@ -1,0 +1,20 @@
+{
+    "name": "AutoLogger",
+    "version": "1.0",
+    "description": "NowTV Auto Login",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.nowtv.com/*/sign-in*"
+            ],
+            "js": [
+                "login.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "web_accessible_resources": [
+        ".env"
+    ]
+}
